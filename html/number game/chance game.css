@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Rajdhani6+:wght@700&display=swap');*/
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    background-color: hsl(0, 1%, 30%);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0px 5px;
+}
+
+.container1 {
+    background-color: hsl(0, 0%, 20%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50, -50);
+    width: fit-content;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#player1 {
+    background-color: hsl(210, 100%, 60%);
+    margin: 0;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50, -50);
+    width: fit-content;
+}
+
+#top {
+    display: grid;
+    grid-template-columns: 48% 4% 48%;
+    gap: 10px;
+}
+
+#left {
+    background-color: hsl(210, 100%, 60%);
+    color: hsl(120, 100%, 40%);
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#right {
+    background-color: hsl(13, 100%, 50%);  
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.textPlayer1{
+    font-family: 'Rajdhani',sans-serif;
+    font-size: 13px;
+    text-transform:uppercase;
+    background:linear-gradient(90deg,#ff00ff,#ff8800,#0000ff,#00ffee);
+    color:linear-gradient(90deg,#ff00ff,#ff8800,#0000ff,#00ffee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 4px 4px 15px rgba(225, 0, 225, 0.8),
+        -4px -4px 15px rgba(0, 225, 225, 0.8);
+        letter-spacing: 3px;
+        text-align: center;
+        font-size: 16px;
+        font-size: 27px;
+}
+.textPlayer2{
+    color: linear-gradient(90deg,#ff00ff,#ff8800,#0000ff,#00ffee);
+    font-weight: 700;
+letter-spacing: 2px;
+text-shadow: 0 5px 20px rgba(0, 0, 0, 0.6);
+margin-bottom: 20px;
+position: relative;
+/* Glitch text effect */
+@keyframes glitchText {
+0% {
+    left: 2px;
+    top: -2px;
+}
+50% {
+    left: -2px;
+    top: 2px;
+    color: #00bcd4;
+}
+100% {
+    left: 2px;
+    top: -2px;
+}
+}
+
+@keyframes flicker {  
+0%{ opacity: 1;};
+50% {opacity: 1;text-shadow: 3px 3px 10px rgba(225, 0, 225, 1);};
+100%{opacity: 1;};
+}
+@keyframes float {
+0%, 100%{transform: translateY(0);};
+50%{ transform: translateY(-5px);}
+}
+}
+.animateText{
+       /* font-size: 45px;*/
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: #e0e0e0;
+        text-shadow: 0 5px 20px rgba(0, 0, 0, 0.6);
+        margin-bottom: 20px;
+        position: relative;
+        animation: glitchText 1.5s infinite;
+    }
+    
+    /* Glitch text effect */
+    @keyframes glitchText {
+        0% {
+            left: 2px;
+            top: -2px;
+            color: #e74c3c;
+        }
+        50% {
+            left: -2px;
+            top: 2px;
+            color: #00bcd4;
+        }
+        100% {
+            left: 2px;
+            top: -2px;
+            color: #e74c3c;
+        }
+    }
+
+@keyframes flicker {  
+    0%{ opacity: 1;};
+    50% {opacity: 1;text-shadow: 3px 3px 10px rgba(225, 0, 225, 1);};
+    100%{opacity: 1;};
+}
+@keyframes float {
+    0%, 100%{transform: translateY(0);};
+    50%{ transform: translateY(-5px);}
+}
+.textPlayer{
+    color: hsl(120, 100%, 40%) ;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#player2 {
+    background-color: hsl(13, 100%, 50%);
+    margin: 0;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 110vh;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50, -50);
+     width: fit-content;
+}
+
+.container2 {
+    background-color: hsl(0, 0%, 20%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50, -50);
+    width: fit-content;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    padding: 10px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+button:active{
+    background-color: hsl(0, 0%, 50%);
+}
+#gameHistory{
+    font-size: 50px;
+}
+#score{
+    font-size: 200%;
+    height: 40px;
+}

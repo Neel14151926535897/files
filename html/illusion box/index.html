@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>10x10 Grid with Dots</title>
+  <style>
+    body {
+      justify-content: center;
+      padding-top: 42px;
+      background-color: #0f0f0f;
+    }
+    .grid-container {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(10, 40px);
+      grid-template-rows: repeat(10, 40px);
+      gap: 10px;
+    }
+    .cell {
+      width: 40px;
+      height: 40px;
+      background-color: #ccc;
+      border: 1px solid #ccc;
+    }
+    a{
+        position: absolute; border-radius: 15%; border: black; color: blue; font-size: bold;
+    }
+    #cs{
+        position: absolute;
+        left: 60%;
+        top: 80%;
+        transform: translate(-60%,-80%);
+    }
+  #wi{
+    position: absolute;
+        left: 40%;
+        top: 80%;
+        transform: translate(-40%,-80%);
+  }
+  </style>
+</head>
+<body>
+  <div class="grid-container" id="grid" style="position: absolute; top: 30%; left: 50%; transform: translate(-50%,-30%);"></div>
+   <button href="illusion.html?from=link" id="cs">color shift</a>
+   <button id="wi">  <a href="step illusion/illusionn2.html?from=link">walk Illusion</a></button>
+    <script>
+      const grid = document.getElementById('grid');
+
+      // Create 100 grid cells
+      for (let i = 0; i < 100; i++) {
+        const cell = document.createElement('div');
+        cell.className = 'cell';
+        grid.appendChild(cell);
+      }
+    </script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steps Illusion</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: hsl(0, 1%, 20%);
+        }
+
+        #goBackBtn {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            opacity: 0.7;
+            background-color:#0000ff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: none; /* Initially hidden */
+        }
+
+        #goBackBtn:hover {
+            background-color: #8080ff;
+        }
+
+        #box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            height: 100px;
+            background: repeating-linear-gradient(
+                to right,
+                black 0px,
+                black 10px,
+                white 10px,
+                white 20px
+            );
+            overflow: hidden;
+        }
+
+        .small-box {
+            width: 20px;
+            height: 15px;
+            position: absolute;
+            top: 35px;
+            animation: move 25s linear infinite;
+        }
+
+        .yellow {
+            background-color: rgb(255, 253, 122);
+            top: 30%;
+            left: 0%;
+            transform: translate(0%,-30%);
+        }
+
+        .blue {
+            background-color:hsl(240, 100%, 11%) ;
+            top: 70%;
+            left: 0%;
+            transform: translate(0%,-50%);
+        }
+
+        @keyframes move {
+            0% { left: 0px; }
+            100% { left: 370px; }
+        }
+
+        #btn {
+            border: none;
+            border-radius: 10px;
+            width: 50px;
+            height: 25px;
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -70%);
+            z-index: 3;
+            background-color: hsl(240, 63%, 40%);
+            font-weight: bold;
+        }
+
+        #btn:hover {
+            background-color: hsl(240, 63%, 60%);
+        }
+
+        #btn:active {
+            background-color: hsl(240, 63%, 80%);
+        }
+        .back-icon {
+      width: 12px;
+      height: 12px;
+      cursor: pointer;
+      fill: #333;
+      transition: fill 0.2s;
+    }
+
+    .back-icon:hover {
+      fill: #007bff;
+    }
+    </style>
+</head>
+
+<body>
+
+    <div id="box">
+        <div class="small-box yellow"></div>
+        <div class="small-box blue"></div>
+    </div>
+    <button id="btn" onclick="deillusion()">Click</button>
+     
+    <!-- The Go Back Button is initially hidden -->
+    <button id="goBackBtn" onclick="goBack()"><svg class="back-icon" onclick="history.back()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M19 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H19v-2z"/>
+      </svg></button>
+
+    <script>
+         document.addEventListener('DOMContentLoaded', function () {
+        const params = new URLSearchParams(window.location.search);
+        if (params.get('from') === 'link') {
+            document.getElementById("goBackBtn").style.display = "block";
+        }
+    });
+
+    function goBack() {
+        window.history.back();
+    }
+        let num = 0;
+
+        function deillusion() {
+            if (num % 2 === 0) {
+                document.getElementById("box").style.background = "hsl(0, 1%, 60%)";
+            } else {
+                document.getElementById("box").style.background = `repeating-linear-gradient(
+                    to right,
+                    black 0px,
+                    black 10px,
+                    white 10px,
+                    white 20px
+                )`;
+            }
+            num += 1;
+        }
+    </script>
+
+</body>
+</html>

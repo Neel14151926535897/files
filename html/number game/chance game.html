@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="chance game.css">
+</head>
+
+<body>
+    <div id="top" style="width: 99.6%;">
+        <div class="design" id="left">
+            <div id="textPlayer1" class="textPlayer1">player1</div>
+            <div id="textPlayer1_msg" class="textPlayer"></div>
+        </div>
+
+        <div style="text-align: center;"><input id="score" style="width: 50px;"><span style="width: 50px;">Game Score</span></div>
+        <div class="design" id="right">
+            <div id="textPlayer2" class="textPlayer1">player2</div>
+            <div id="textPlayer2_msg" class="textPlayer"></div>
+        </div>  
+    </div>
+    <!--<div id="textPlayer2" class="textPlayer1">player2</div>-->
+    <div id="parent" style="width:100%">
+        <input style="width: 99.6%;overflow: hidden;padding: 10px;" id="gameHistory" readonly>
+    </div>
+    <div class="players">
+        <audio id="clickSound" src="click.wav" preload="auto"></audio>
+        <audio id="winSound" src="win.mp3
+        " preload="auto"></audio>
+        <div id="player1" style="height: 662px;width: 100%;">
+            <div class="container1">
+                <button onclick="numberDisplay('1','P1')">1</button>
+                <button onclick="numberDisplay('2','P1')">2</button>
+                <button onclick="numberDisplay('3','P1')">3</button>
+                <button onclick="numberDisplay('4','P1')">4</button>
+                <button onclick="numberDisplay('5','P1')">5</button>
+                <button onclick="numberDisplay('6','P1')">6</button>
+                <button onclick="numberDisplay('7','P1')">7</button>
+                <button onclick="numberDisplay('8','P1')">8</button>
+                <button onclick="numberDisplay('9','P1')">9</button>
+                <button onclick="numberDisplay('10','P1')">10</button>
+            </div>
+        </div>
+        <div id="player2" style="height: 662px;width: 100%;">
+            <div class="container2">
+                <button onclick="numberDisplay('1','P2')">1</button>
+                <button onclick="numberDisplay('2','P2')">2</button>
+                <button onclick="numberDisplay('3','P2')">3</button>
+                <button onclick="numberDisplay('4','P2')">4</button>
+                <button onclick="numberDisplay('5','P2')">5</button>
+                <button onclick="numberDisplay('6','P2')">6</button>
+                <button onclick="numberDisplay('7','P2')">7</button>
+                <button onclick="numberDisplay('8','P2')">8</button>
+                <button onclick="numberDisplay('9','P2')">9</button>
+                <button onclick="numberDisplay('10','P2')">10</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    const correctFontSize = (str, elementWidth, originalSize) => {
+    const length = str.length;
+    const mult = elementWidth / (originalSize * length);
+    let fontSize = originalSize * mult * 1.7;
+
+    console.log(fontSize, originalSize, mult);
+    if (fontSize > originalSize) fontSize = originalSize;
+    return Math.round(fontSize);
+};
+const originalSize = 50; // insert original font size
+
+
+function setFontSize() {
+    const parentElement = document.getElementById("parent");
+    const elementWidth = parentElement.offsetWidth;
+    const text = document.getElementById("gameHistory");
+    const str = text.value;
+    const newFontSize = correctFontSize(str, elementWidth, originalSize);
+    console.log(`${newFontSize}px`);
+    text.style.fontSize = `${newFontSize}px`;
+}
+
+const gameHistory = document.getElementById("gameHistory");
+const score = document.getElementById("score");
+let isFirst = true
+let p1 = true;
+let p2 = true;
+
+
+const winaudio = document.getElementById("winSound");
+const clickaudio = document.getElementById("clickSound");
+const textPlayer= document.getElementById("textPlayer");
+const textPlayer1= document.getElementById("textPlayer1");
+document.getElementById("textPlayer1").classList.add("animateText");
+
+function numberDisplay(input, player) {
+    if (player == "P1" && p1 == true) {
+        p1 = false;
+        p2 = true;
+        //document.getElementById("textPlayer1").style.animation= ""
+        //document.getElementById("textPlayer2").classList.add("animateText");
+        document.getElementById("textPlayer2").classList.add("animateText");
+        document.getElementById("textPlayer1").classList.remove("animateText");
+        
+        if (isFirst) {
+            gameHistory.value += input;
+            isFirst=false
+        } else {
+            gameHistory.value = gameHistory.value + "+" + input;
+
+        }
+       
+        clickaudio.pause();
+        clickaudio.play();
+        toatalNum(player);
+    }
+    if (player == "P2" && p2 == true) {
+        p2 = false;
+        p1 = true;
+        document.getElementById("textPlayer1").classList.add("animateText"); 
+        document.getElementById("textPlayer2").classList.remove("animateText");  
+        if (isFirst) {
+            gameHistory.value += input;
+            isFirst = false;
+        } else {
+            gameHistory.value = gameHistory.value + "+" + input;
+        }
+        clickaudio.pause();
+        clickaudio.play()
+        toatalNum(player);
+    }
+
+}
+
+function toatalNum(player) {
+    score.value = eval(gameHistory.value);
+    if (isFirst) {
+        ampmEl.classList.remove("animateStart")
+        document.getElementById("animateText").classList.add("textPlayer1");
+        isFirst = false;
+    }
+    setFontSize();
+    if (score.value >= 100) {
+        // alert(`Game over!! Player ${player} won`);
+
+        winaudio.play();
+        if (player == "P1") {
+            document.getElementById("textPlayer1_msg").innerHTML = "Congractulations, You won!!!"
+        }
+        if (player == "P2") {
+            document.getElementById("textPlayer2_msg").innerHTML = "Congractulations, You won!!!"
+        }
+
+
+        setTimeout(() => {
+            score.value = "";
+            gameHistory.value = "";
+            isFirst = true
+            p1 = true;
+            p2 = true;
+            document.getElementById("textPlayer1_msg").innerHTML="";
+            document.getElementById("textPlayer2_msg").innerHTML="";
+            document.getElementById("textPlayer1").classList.add("animateText");
+            document.getElementById("textPlayer2").classList.remove("animateText");
+        }, 3000)
+
+
+    }
+}
+</script>
+
+</html>

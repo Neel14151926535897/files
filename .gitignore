@@ -1,0 +1,39 @@
+# =====================
+# Ignore Windows junk
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Ignore system / installs
+OneDrive/
+Python313/
+
+# Ignore registry files and installer icons
+*.reg
+*.ico
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Node junk
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore IDE junk
+.vscode/
+.idea/
+
+# Ignore helper scripts
+upload files.py
+
+# =====================
+# Keep project assets
+!*.svg
+!*.png
+!*.jpg
+!*.bat
