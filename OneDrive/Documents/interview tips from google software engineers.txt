@@ -1,0 +1,116 @@
+0:05
+Really the big focus of this interview is going to be technical skills.
+0:09
+Most interviewers are going to run a few warm-up questions,
+0:12
+one main question that's going to take the bulk of the time,
+0:14
+so you can imagine a 30- to 35-minute interactive question.
+0:17
+The questions themselves aren't going to have the answer presented to you directly.
+0:21
+You really have to understand what the question is asking
+0:23
+and have an understanding of different data structures and algorithms to be like,
+0:26
+OK, I can mix and match this together a little bit to make this happen.
+0:31
+And then you can build on top of anything
+0:33
+you have to do inside the actual interview.
+0:35
+From my experience, all the interviewers from Google are extremely nice,
+0:39
+so they are very supportive and helpful.
+0:42
+Even though the first solution you come up with might not be the best,
+0:46
+they will guide you through and give you enough hints,
+0:48
+so eventually you can get the best solution.
+0:55
+You definitely need to think out loud.
+0:57
+First, ask clarification questions.
+1:01
+Second, call out assumptions.
+1:03
+Third, you need to explain your thoughts clearly before jumping into coding.
+1:09
+It's like: What are your edge cases? Define those first.
+1:12
+Is anything going to be null?
+1:13
+What kind of inputs are you getting? So you can make sure that,
+1:15
+you know, your system won't break halfway through.
+1:17
+Definitely speak out loud so that your interviewer knows
+1:20
+where your mind is on certain things,
+1:22
+and that's when they can give you hints every now and again,
+1:24
+like, "Oh, maybe don't use a HashSet; a HashMap might be a little better."
+1:28
+I think a lot people come into it with the misconception that
+1:30
+for every problem you're given, you must find the algorithmically optimal solution,
+1:33
+but it's better to find some solution than none at all.
+1:36
+That's really easy to mess up.
+1:40
+The biggest piece of advice on how to do well at a software engineering interview
+1:43
+is to not try to do well at the interview, but how do you do well
+1:46
+as a software engineer in general, right?
+1:47
+And that comes with practice, and it comes with knowing your code.
+1:50
+So you really have to do what you have to do
+1:52
+to make sure that when you do get on site, you crush it.
+1:54
+I'd recommend the Google Tech Dev Guide to make sure that
+1:57
+your fundamentals are going to be strong for the interview.
+2:00
+Make sure that you're really good at at least one language,
+2:02
+because you're only going to get to pick one when you do the interview.
+2:04
+Prepare yourself. Get used to coding on a whiteboard.
+2:07
+The difference between coding on a whiteboard and coding in an editor
+2:12
+is that you don't have any helpful tools to guide you through to finish the syntax.
+2:18
+So it's easy to just practice writing some code on a piece of paper
+2:21
+where you don't have that type of tool.
+2:25
+I think there's a misconception that you need to be, like,
+2:27
+you know, the best engineer ever to work at Google.
+2:30
+You know, you don't need to be an expert at algorithms;
+2:32
+you just need to be good at them.
+2:34
+You don't need to know some really high-level complex data structures;
+2:37
+you just need to know all the basic ones really well.
+2:39
+You kind of think of Google as this, like, super software-engineer-producing entity,
+2:44
+but then you realize it's people that have also been
+2:47
+through your same process, right?
+2:48
+They practiced, they worked, they developed to be who they were today.
+2:51
+Of course Google likes to hire smart people,
+2:54
+but don't underestimate yourself — you can do it.

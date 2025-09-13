@@ -1,0 +1,202 @@
+4:35
+trigonometry if we look at a triangle we
+4:37
+will see this angle in trigonometry it's
+4:40
+called Theta these sides have a
+4:42
+particular ratio to one another based on
+4:44
+the value of the angle Theta and are
+4:45
+labeled hypotenuse opposite and adjacent
+4:48
+there are three functions that pretty
+4:49
+much sum up all of trigonometry actually
+4:52
+there's one more thing too but we'll get
+4:54
+to that later the sin function tells us
+4:56
+the ratio between the opposite and the
+4:58
+hypotenuse the coast function tells us
+5:00
+the ratio between adjacent and the
+5:01
+hypotenuse and the tan function tells us
+5:03
+the ratio between opposite and the
+5:05
+adjacent imagine a triangle with these
+5:07
+values by using the sin function and
+5:09
+then calculating it as an equation we
+5:11
+can then find the value for x which
+5:13
+equals 6.88 the other key thing to
+5:15
+remember is this little circle divided
+5:17
+into four quadrants with 12 points
+5:19
+called a unit circle the points in the
+5:21
+circle are defined by various
+5:22
+measurements like for example degrees
+5:25
+but the most common measurement however
+5:26
+is radians which basically is the radius
+5:29
+of the circle stretched out over its
+5:30
+side creating an arc 6.28 3 radians make
+5:33
+up a whole circle which is equal to the
+5:35
+circumference of the circle 2 pi radius
+5:38
+but since we only use radians as the
+5:40
+measurement and not the radius we can
+5:42
+rename 2 pi radius to 2 pi radians yeah
+5:45
+I know they literally sound the same
+5:47
+deal with it congratulations now that we
+5:49
+know the circle in total is 2 pi radians
+5:51
+we can also say that the points in our
+5:53
+Circle become various fractions of pi
+5:55
+over radians now here is when things get
+5:58
+kind of freaky if we draw draw a line
+6:00
+from the center of the circle this line
+6:01
+according to trigonometry will have the
+6:03
+unit one one what you may ask just one
+6:06
+yeah you see since we're dealing with
+6:08
+ratios between lengths they'll cancel
+6:10
+each other out therefore we just use one
+6:12
+if we know that this length is one unit
+6:14
+long we can also figure out that the end
+6:16
+of each axis have these coordinates now
+6:18
+let's place this angle Theta in the
+6:19
+circle and draw one line alongside the
+6:21
+x-axis and then another one from the
+6:23
+point where the angle intercepts the
+6:24
+circle wait a minute that's the same
+6:26
+triangle we drew earlier this side AKA
+6:29
+the hypotenuse will have the unit one if
+6:31
+we look at the functions sin Co and tan
+6:34
+we can then plug our values into one of
+6:35
+them and then simplify it do you see
+6:37
+what's going on here we're marking out
+6:38
+the coordinates for the angle Theta in
+6:40
+simple terms we're figuring out the
+6:42
+lengths of the triangle sides knowing
+6:44
+this we can then say that the
+6:45
+coordinates for the angle Theta are cos
+6:47
+Theta comma sin Theta now to most normal
+6:49
+people this tells us about as much as
+6:51
+this kid trying to explain his dream so
+6:54
+we're going to need some actual numbers
+6:56
+the three key numbers to remember are
+6:57
+square 3 over 2 square2 2 and square 1/
+7:01
+2 which is simplified to 1/ 2 remember
+7:03
+those dots in the circle representing
+7:05
+the fractions of 2 pi radians turns out
+7:08
+if we draw a right triangle with a 30°
+7:10
+angle to pi/ 6 radians then draw a
+7:12
+mirror image triangle below it we can
+7:14
+then see that the length of the original
+7:16
+line aka the wide coordinate AKA sin
+7:19
+Theta = 1 2 you see there's a pattern
+7:22
+here if we instead draw a triangle with
+7:24
+a 45° angle to pi over 4 radians we will
+7:27
+see indeed that sin Theta equal 2 / 2
+7:30
+doing the same with a triangle with the
+7:32
+angle 60° to pk/ 3 radians will give us
+7:35
+the conclusion that sin theta equals to
+7:37
+square 3/ 2 long line big number medium
+7:40
+line medium number Short Line small
+7:42
+number and the same pattern applies to
+7:44
+co Theta fun fact we can actually draw
+7:46
+out the function of Co and sin in a
+7:48
+graph it shows us the variation of Co
+7:50
+and sin with respect to the angle Theta
+7:52
+you can think of Co Theta as the x axis
+7:54
+when Theta increases so does the co
+7:56
+Theta line until Theta goes over the
+7:58
+second quadrant which sits on the
+7:59
+negative side of cos Theta making the
+8:01
+line slope down sin Theta pretty much
+8:03
+does the same thing just in reverse all

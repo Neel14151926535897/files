@@ -1,0 +1,132 @@
+0:06
+TPM is a very unique role in that, for me specifically, it's stretching me to pull
+0:12
+me out of my default, which is just diving through the technical.
+0:15
+It forces me to come out of that and think higher level,
+0:19
+bigger picture, is this the best thing long-term?
+0:22
+As well as being able to balance business and technical decisions.
+0:26
+That's the part that's really unique about it.
+0:28
+I come from a software engineering background,
+0:30
+but over the years I realized that I like to talk to people more
+0:34
+than sitting in my desk and code.
+0:36
+This is a good mix where I can work with people, find out what the problems are,
+0:40
+and then work with the SWEs and the engineering team
+0:42
+to have them implement it.
+0:44
+So it's a dual language process if you will.
+0:46
+Those capabilities often are portable
+0:49
+to a variety of different areas and different types of projects.
+0:52
+It's really a passkey to be able to go anywhere in Google and work on
+0:56
+anything that interests you.
+1:01
+For a TPM position, you'll typically talk to somewhere
+1:03
+between three and five people when you visit.
+1:06
+Frequently there will be one person who is specifically assigned
+1:10
+to assess the T, the technical aspect of TPM.
+1:14
+Often that's software engineering, but at Google it could mean anything.
+1:17
+Most of the questions which they asked me are things
+1:20
+which are very relevant to my job today.
+1:22
+Half of them were technical design focus,
+1:24
+and the other half were more on the program management side of things.
+1:27
+What they try to assess in the interview is your ability to solve problems,
+1:31
+it's your ability to interact with cross-functional teams.
+1:36
+How do you lead without managing people?
+1:39
+Those types of things.
+1:43
+One thing in particular that's very important is to make sure
+1:46
+that you don't answer a behavioral question about
+1:49
+how you did something in the past with a hypothetical answer
+1:52
+of I would do this or that.
+1:54
+It happens quite a lot, but it's really important
+1:56
+to really draw in your experience and show that you've been able
+1:59
+successfully to do the things that you're being asked about.
+2:02
+I try to find things that I've done in three categories:
+2:05
+the most difficult things I've done.
+2:07
+Then the second thing I looked at was what are my biggest successes,
+2:11
+what were my biggest accomplishments, things that I'm proud of.
+2:14
+And the last one was what were my failures.
+2:17
+So those are the three things I really focused on.
+2:19
+I think one of the things that helped me was to really think about
+2:22
+the questions and the problems that were presented to me
+2:25
+and the five why's of who, what, when, where, and why.
+2:27
+And another thing was just not being afraid to get on the whiteboard
+2:31
+and to write things out.
+2:32
+Even when you're not necessarily writing numbers and code on the board,
+2:36
+but just trying to organize your thoughts
+2:38
+and bucketing ways to solve a given problem.
+2:41
+I did a lot of technical preparation just going through and reading up on my design
+2:45
+and stuff like that, but then later I realized
+2:48
+I really got to practice my mock interviews.
+2:50
+It's literally your 45 minutes of sales pitch, and you have to get it right.
+2:54
+All the things that are important for project managers or program managers
+2:58
+such as organization, communication,
+3:00
+ability to simplify something down to a solvable puzzle,
+3:05
+is very important in the job and it's important in the interview itself as well.
+3:09
+I think the thing that was least productive was just the self-doubt,
+3:14
+but I just convinced myself that I was very confident
+3:17
+in what I was bringing to the table, and things worked out well.
+3:21
+You will never find out what you're missing on
+3:23
+until you apply and you go through the process.
+3:26
+So I just thought I'd apply and see what happens,
+3:28
+and I was really glad that I got this.

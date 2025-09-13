@@ -4,9 +4,21 @@ Thumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 
-# Ignore system / installs
-OneDrive/
-Python313/
+# Ignore OneDrive sync junk
+OneDrive/*.ini
+OneDrive/*.tmp
+OneDrive/*.lnk
+OneDrive/.*
+OneDrive/~*
+
+# Ignore Python installation junk (but not your code)
+Python313/__pycache__/
+Python313/*.pyc
+Python313/*.pyo
+Python313/*.pyd
+Python313/*.log
+Python313/.*
+Python313/~*
 
 # Ignore registry files and installer icons
 *.reg
@@ -37,3 +49,6 @@ upload files.py
 !*.png
 !*.jpg
 !*.bat
+
+# Ignore secret token file
+token code
